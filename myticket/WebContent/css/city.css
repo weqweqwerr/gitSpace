@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------------------------------------
+CSS Create: 2015-05-18         Author: GuoJinjin
+CSS Last Update: 2015-05-18 14:30 By GuoJinjin
+*Filename:                    city.css
+*Website:                     www.damai.cn
+*Page width:                  1200px
+------------------------------------------------*/
+.sort-city-keyword dd:after,.item-list .con ul li:after{content:'\20';display:block;height:0;clear:both}
+.miannav li a .state{
+	*height:11px;*line-height:11px;*width:30px;*font-size:0;*overflow:hidden;*position:relative;*top:-3px;*margin-right:-30px;vertical-align:central;_height:auto;_line-height:auto;_width:30px;_overflow:hidden;_font-size:inherit;_position:absolute;_top:auto;_margin-right:auto}
+.miannav ul{margin-left:215px}
+.miannav .nav-other .citys-calendar{background:url(//dui.dmcdn.cn/dm_2015/city/img/index-icon.png) no-repeat scroll -183px -577px;_background:url(//dui.dmcdn.cn/dm_2015/city/img/ie6/index-icon.gif) no-repeat scroll -183px -577px;color:#ff332d;font-size:16px;font-family:"Microsoft YaHei";padding-left:20px;font-weight:700}
+.index-top .sort-city{width:202px;font-family:"Microsoft YaHei";overflow:hidden}
+.sort-city .sort-list2 li{line-height:36px;float:left;width:87px;padding:0 0 0 9px}
+.sort-city .sort-list2 li a{padding-left:33px;display:block;color:#fff;background:url(//dui.dmcdn.cn/dm_2015/city/img/index-icon.png) no-repeat;_background:url(//dui.dmcdn.cn/dm_2015/city/img/ie6/index-icon.gif) no-repeat}
+.sort-city .sort-list2 li a:hover{ background-color:#f05778;}
+.sort-city .sort-list2 li a.on {width:52px; height:34px; line-height:34px; border:1px solid #f69aae;}
+.sort-city .sort-list2 li .sort-c1{background-position:-173px -85px}
+.sort-city .sort-list2 li .sort-c2{background-position:-173px -126px}
+.sort-city .sort-list2 li .sort-c3{background-position:-173px -205px}
+.sort-city .sort-list2 li .sort-c4{background-position:-173px -286px}
+.sort-city .sort-list2 li .sort-c5{background-position:-173px -166px}
+.sort-city .sort-list2 li .sort-c6{background-position:-173px -245px}
+.sort-city .sort-list2 li .sort-c7{background-position:-173px -325px}
+.sort-city .sort-list2 li .sort-c8{background-position:-173px -365px}
+.sort-city .sort-list2 li .sort-c9{background-position:-173px -489px}
+.sort-city-keyword{clear:both}
+.sort-city-keyword dt{background:#d70000;border-top:1px dotted #fff;line-height:32px;text-align:center;font-size:14px;color:#fff}
+.sort-city-keyword dd{line-height:26px;padding:8px 0;zoom:1}
+.sort-city-keyword dd a{color:#fff;padding:0 4px 0 12px;width:50px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;float:left}
+.sort-city-keyword dd a:hover{color:#fff;text-decoration:underline}
+.c-venue dd{line-height:26px}
+.c-venue dd a{width:87px;padding:0 0 0 12px}
+/*轮播*/
+.slide-city{position:relative;width:788px;float:left;margin-left:10px;display:inline}
+.slide-city .skip{top:-220px}
+.slide-city .prev,.slide-city .next{margin-left:0}
+.slide-city .prev{left:0;right:auto}
+.slide-city .next{right:0;left:auto}
+.slide-city .sd .itm{width:262px}
+.top01-right{width:190px;float:right;overflow:hidden}
+.top-right-slide { position: relative; }
+.top-right-slide .imgs{position:relative;width:190px;height:259px;overflow:hidden;line-height:0;font-size:0}
+.top-right-slide .imgs a{display:block;width:100%}
+.top-right-slide .imgs li{position:absolute;left:0;top:0;width:100%;height:100%}
+.top-right-slide .imgs img{display:block;width:100%; height: 259px;}
+.top-right-slide .bt-fn{width:190px;height:30px;position: absolute; bottom: 0px; background: url(//dui.dmcdn.cn/dm_2015/city/img/main-player-bar-bg-1.png) repeat-x scroll;}
+.top-right-slide .nums{ display: block;text-align: center; overflow: hidden; padding-top: 7px; }
+.top-right-slide .nums span{display:inline-block; text-align:center; width:12px;height:20px;background:url(//dui.dmcdn.cn/dm_2015/city/img/index-icon.png) no-repeat scroll -17px -192px;_background:url(//dui.dmcdn.cn/dm_2015/city/img/ie6/index-icon.gif) no-repeat scroll -17px -192px;cursor:pointer}
+.top-right-slide .nums span.on{background-position:0 -192px}
+.section-fn{float:right;position:relative}
+.section-fn span{padding:0 30px;text-align:center}
+.section-fn .skip,.item-list .hd ul .list-page .c-t2 .skip{position:absolute;text-indent:-9999px;width:19px;height:19px;overflow:hidden;background:url(//dui.dmcdn.cn/dm_2015/city/img/index-icon.png) no-repeat scroll 0 -218px;_background:url(//dui.dmcdn.cn/dm_2015/city/img/ie6/index-icon.gif) no-repeat scroll 0 -218px}
+.section-fn .prev,.item-list .hd ul .list-page .c-t2 .prev{left:0;top:0}
+.section-fn .prev:hover,.item-list .hd ul .list-page .c-t2 .prev:hover{background-position:0 -237px}
+.section-fn .next,.item-list .hd ul .list-page .c-t2 .next{right:0;top:0;background-position:-19px -218px}
+.section-fn .next:hover,.item-list .hd ul .list-page .c-t2 .next:hover{background-position:-19px -237px}
+.city-subnews{border:1px solid #eaeaea;height:154px; margin-top: 5px;}
+.city-subnews .hd{height:38px;line-height:38px;background:#f9f9f9;padding-left:15px;font-size:14px;color:#333}
+.city-subnews .con{padding:5px 15px}
+.city-subnews .con li{height:26px;line-height:26px;overflow:hidden}
+.city-subnews .con li a{background:url(//dui.dmcdn.cn/dm_2015/city/img/index-icon.png) no-repeat scroll -196px -627px;_background:url(//dui.dmcdn.cn/dm_2015/city/img/ie6/index-icon.gif) no-repeat scroll -196px -627px;padding-left:13px;line-height:27px;width:145px;display:inline-block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.city-subnews .con li a:hover,.city-focus .hd .ri-all:hover{color:#e41946}
+.city-focus .hd{height:30px;background:#f7f7f7;margin-bottom:10px}
+.city-focus .hd h3,.city-focus .hd .ri-all{background:#fff;padding-right:20px;line-height:30px;color:#333;font-family:'Microsoft YaHei';font-size:18px;float:left}
+.city-focus .hd .focus-tabs{float:left;margin-left:198px;font-size:14px}
+.city-focus .hd .focus-tabs a{width:132px;float:left;color:#333;line-height:30px;text-align:center;margin-right:1px}
+.city-focus .hd .focus-tabs a:hover,.city-focus .hd .focus-tabs a.on{background:#ff3c3c;color:#fff}
+.city-focus .hd .ri-all{padding:0 0 0 20px;float:right;font-size:12px}
+.city-focus .con{border:1px solid #eaeaea;padding:0 15px 0 19px;display:none}
+.city-focus .con.on{display:block}
+.city-focus .con .list{border-bottom:1px dashed #ddd;padding:30px 0;border-bottom:1px dashed #ddd}
+.city-focus .con .list.no-line{border-bottom:0}
+.city-focus .con .list li{width:276px;padding-right:20px;float:left}
+.city-focus .con .list li.pd0{padding-right:0}
+.city-focus .con .list li .img{display:block;width:112px;height:150px;overflow:hidden;float:left}
+.city-focus .con .list li .infor{width:150px;padding-left:14px;float:left;position:relative;top:-3px}
+.city-focus .con .list li .infor dt{line-height:20px;height:40px;overflow:hidden}
+.city-focus .con .list li .infor .score{height:24px;line-height:24px;overflow:hidden;*zoom:1}
+.city-focus .con .list li .infor .score .star{display:block;width:87px;height:15px;background:url(//dui.dmcdn.cn/dm_2015/city/img/star.png) no-repeat;margin-top:4px;float:left}
+.city-focus .con .list li .infor .score .num{font-size:16px;font-family:Arial;color:#999;margin-left:10px;float:left}
+.city-focus .con .list li .infor .txt{line-height:20px;padding-top:10px}
+.city-focus .con .list li .infor .txt .time{color:#888;width:150px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.city-focus .con .list li .infor .txt .price{line-height:26px;height:auto;color:#333;width:150px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.city-focus .con .list li .infor .txt .price strong{font-size:22px}
+.city-focus .con .list li .infor .txt .place{width:150px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.city-focus .con .list li .infor .txt .btn{display:block;width:76px;height:30px;line-height:30px;text-align:center;color:#fff;background:url(//dui.dmcdn.cn/dm_2015/city/img/btn.png) no-repeat 0 -48px}
+.city-focus .con .list li .infor .txt .btn:hover{background-position:0 -78px}
+.city-box{border:1px solid #eaeaea}
+.city-box .hd{background:#f5f5f5;border-bottom:1px solid #eaeaea;height:37px;line-height:37px;zoom:1}
+.city-bod .hd:after{content:"";display:block;clear:both}
+.city-box .hd h3{padding-left:20px;float:left;font-size:18px;color:#333}
+.item-list{width:928px;float:left;position:relative;zoom:1;margin-bottom:30px}
+.item-list .hd ul{float:right;height:39px;width:758px}
+.item-list .hd ul li{float:left;padding:0 10px}
+.item-list .hd ul li.list-page{float:right}
+.item-list .hd ul .list-all a,.item-list .hd ul .list-all:hover a,.item-list .hd ul .list-all.on a{padding:0;background:0}
+.item-list .hd ul .list-time{border-right:1px solid #eaeaea;width:199px;vertical-align:middle;position:relative}
+.item-list .hd ul .list-time .inp01{margin-top:8px;width:80px;height:14px;padding:2px 5px;overflow:hidden;line-height:14px;border:1px solid #eaeaea;background:#fff url(//dui.dmcdn.cn/dm_2015/city/img/ico.png) no-repeat scroll right -242px}
+.item-list .hd ul .list-time .t-tp{position:relative;z-index:1;overflow:hidden}
+.item-list .hd ul .list-time .t-bt{display:none;zoom:1;padding-bottom:10px}
+.item-list .hd ul .list-time .t-bt:after{content:"";display:block;clear:both}
+.item-list .hd ul .list-time.on .t-bt{display:block;width:198px;margin-top:0}
+.item-list .hd ul .list-time.on{position:relative;left:-1px;top:-1px;background:#fff;border:1px solid #eaeaea;width:198px;z-index:50}
+.item-list .hd ul .list-time.on .t-btn01,.item-list .hd ul .list-time.on .t-btn02{float:left;display:block;width:92px;height:20px;text-align:center;line-height:20px;color:#fff;background:#ff3c3c}
+.item-list .hd ul .list-time.on .t-btn02{background:#f5f5f5;color:#333}
+.item-list .hd ul .list-time.on .t-btn02:hover{background:#ecebeb}
+.item-list .hd ul .list-time.on .t-btn01{margin-right:10px}
+.item-list .hd ul .list-time.on .t-btn01:hover{background:#fb2c2c}
+.item-list .hd ul .list-rank{border-right:1px solid #eaeaea}
+.item-list .hd ul .list-rank .up, .item-list .hd ul .list-rank .down { color: #333; background-image: url(//dui.dmcdn.cn/dm_2015/city/img/ico.png); background-repeat: no-repeat; padding-right: 13px; display: block;text-align: center; float:left;}
+.item-list .hd ul .list-rank:hover a{background-repeat:no-repeat right;color:#ff3c3c}
+.item-list .hd ul .list-rank .up{background-position:right -485px}
+.item-list .hd ul .list-rank .up:hover{background-position:right -509px}
+.item-list .hd ul .list-rank .down{background-position:right -129px}
+.item-list .hd ul .list-rank .down:hover{background-position:right -153px}
+.item-list .hd ul .list-rank.on{background:#ff3c3c;position:relative;top:-1px;height:39px;border-right:1px solid #ff3c3c;width:auto}
+.item-list .hd ul .list-rank.on a{color:#fff;background-color:#ff3c3c}
+.item-list .hd ul .list-rank.on .up,.item-list .hd ul .list-rank.on .down{color:#fff}
+.item-list .hd ul .list-rank.on .up{background-position:right -535px}
+.item-list .hd ul .list-rank.on .down{background-position:right -179px}
+.item-list .hd ul .list-select{border-right:1px solid #eaeaea;width:115px}
+.item-list .hd ul .list-select a{color:#333;background:url(//dui.dmcdn.cn/dm_2015/city/img/ico.png) no-repeat scroll right -278px;padding-right:12px}
+.item-list .hd ul .list-select a:hover{background-position:right -307px;_padding-right:20px}
+.item-list .hd ul .list-select .t-bt{display:none}
+.item-list .hd ul .list-select .itm{display:block;background:0;height:20px;line-height:20px}
+.item-list .hd ul .list-select .itm:hover,.item-list .hd ul .list-select .itm.on,.item-list .hd ul .list-select .on{color:#ff3c3c}
+.item-list .hd ul .list-select.on{position:relative;z-index:50}
+.item-list .hd ul .list-select.on .tt{position:relative;z-index:1}
+.item-list .hd ul .list-select.on .t-bt{position:absolute;z-index:0;left:-1px;right:-1px;top:-1px;background-color:#fff;border:1px solid #eaeaea;padding:30px 10px 10px;display:block}
+.item-list .hd ul .list-page .c-t1{padding-right:10px;height:20px;line-height:20px;border-right:1px solid #eaeaea;float:left;margin:8px 0 0}
+.item-list .hd ul .list-page .inp02{width:35px;height:14px;padding:2px 0;overflow:hidden;line-height:14px;border:1px solid #eaeaea;background:#fff;text-align:center;margin-right:5px}
+.item-list .hd ul .list-page .c-t2{margin-left:8px;float:left;position:relative}
+.item-list .hd ul .list-page .c-t2 span{text-align:center;margin:0 30px}
+.item-list .hd ul .list-page .c-t2 .prev,.item-list .hd ul .list-page .c-t2 .next{top:9px}
+.item-list .hd ul .list-page .t-bt{display:none}
+.item-list .hd ul .list-page.on{position:relative;z-index:50}
+.item-list .hd ul .list-page.on .c-t1{position:relative;z-index:1}
+.item-list .hd ul .list-page.on .t-bt{position:absolute;left:-1px;top:-1px;z-index:0;display:block;background-color:#fff;padding:38px 10px 10px;border:1px solid #eaeaea;line-height:20px}
+.item-list .hd ul .list-page.on .t-btn01{width:62px;height:20px;text-align:center;line-height:20px;color:#fff;background:#ff3c3c;display:inline-block}
+.item-list .hd ul .list-page.on .t-btn01:hover{background:#fb2c2c}
+.item-list .con{padding:0 29px}
+.item-list .con ul li{padding:30px 0;border-bottom:1px solid #eaeaea;position:relative;zoom:1;z-index:40}
+.item-list .con ul li.bor-no{border-bottom:0}
+.item-list .con ul li .img img{width:130px;height:175px;float:left;margin-right:20px}
+.item-list .con ul li .ri-infos{margin-left:150px}
+.item-list .con ul li .ri-infos h5{font-size:16px;line-height:16px;font-family:'Microsoft YaHei';margin-top:-1px;font-weight:400;margin-bottom:8px}
+.item-list .con ul li .ri-infos h5 a{color:#333}
+.item-list .con ul li .ri-infos h5 a:hover{color:#ff3c3c}
+.item-list .con ul li .ri-infos p{color:#858585;line-height:12px;padding:10px 0}
+.item-list .con ul li .ri-infos p.txts{padding:5px 0;line-height:20px}
+.item-list .con ul li .ri-infos .city-time{margin-right:30px}
+.item-list .con ul li .ri-infos .city-time strong{font-weight:400}
+.item-list .con ul li .ri-infos .city-veune a{color:#333}
+.item-list .con ul li .ri-infos .city-veune a:hover{color:#ff3c3c}
+.item-list .city-price{line-height:12px;padding:10px 0 5px;overflow:hidden;zoom:1;color:#858585}
+.item-list .city-price .name{float:left;width:36px}
+.item-list .city-price .info{width:485px;float:left;position:relative;top:-4px;line-height:20px}
+.item-list .city-price .info span{padding-right:3px;color:#858585}
+.item-list .con ul li .ri-infos p.city-ticket{padding-bottom:0}
+.item-list .city-ticket .online-ticket,.item-list .city-ticket .elec-ticket{background:url(//dui.dmcdn.cn/dm_2015/city/img/ico.png) no-repeat scroll left -362px;padding-left:24px;color:#ff3c3c;margin-right:20px}
+.item-list .city-ticket .elec-ticket{background-position:left -425px}
+.item-list .city-ticket a:hover{text-decoration:underline}
+.item-list .city-btns{position:absolute;bottom:30px;right:0}
+.item-list .city-btns .city-buy,.item-list .city-btns .city-collect,.item-list .city-btns .city-collected{background:url(//dui.dmcdn.cn/dm_2015/city/img/index-icon.png) no-repeat scroll 0 -321px;_background:url(//dui.dmcdn.cn/dm_2015/city/img/ie6/index-icon.gif) no-repeat scroll 0 -321px;width:87px;height:27px;text-align:center;color:#fff;font-size:14px;font-family:'Microsoft YaHei';line-height:27px;margin-right:20px;float:left}
+.item-list .city-btns .city-buy:hover{background-position:0 -352px}
+.item-list .city-btns .city-collect,.item-list .city-btns .city-collected{background-position:0 -383px;color:#333;margin-right:0;padding-left:27px;font-size:12px;text-align:left;width:60px}
+.item-list .city-btns .city-collect:hover{background-position:0 -412px;color:#ff3c3c}
+.item-list .city-btns .city-collected{background-position:0 -441px;padding-left:36px;width:51px;cursor:default;color:#ff3c3c}
+.city-recommend{width:258px;float:right;margin-bottom:30px}
+.city-recommend .hd{font-size:14px;color:#333;padding-left:20px}
+.city-recommend .con{padding:30px 15px 0}
+.city-recommend .con li{width:227px;height:305px;margin-bottom:30px;position:relative}
+.city-recommend .con li .img img{width:227px;height:305px;font-size:0;line-height:0;display:block;overflow:hidden}
+.city-recommend .con li .infos{position:absolute;bottom:0;left:0;background:url(//dui.dmcdn.cn/dm_2015/city/img/bg.png) repeat scroll 0 0;width:197px;padding:5px 15px;line-height:20px}
+.city-recommend .con li .infos .title{color:#fff;text-overflow:ellipsis;display:block;white-space:nowrap;overflow:hidden}
+.city-recommend .con li .infos .c-price strong{font-size:16px;font-family:impact;font-weight:400}
+.city-recommend .con li .infos .c-price{font-size:14px;color:#fff}
+/* 固定侧栏 */
+.m-sdfix{position:fixed;_position:absolute;right:20px;bottom:20px;z-index:200;border:1px solid #dbdbdb;border-top:0}
+.m-sdfix i{position:absolute;left:50%;top:50%;margin-left:-9px;margin-top:-9px;width:21px;height:18px;background:url(//dui.damai.cn/dm_2015/goods/images/ultimate-sprites.png) no-repeat 9999px 9999px}
+.m-sdfix .itm{position:relative;z-index:0;display:block;width:40px;height:40px;background-color:#f6f6f6;border-top:1px solid #dbdbdb}
+.m-sdfix .itm .txt,.m-sdfix .itm .code{display:none}
+.m-sdfix .z-crt{z-index:1;background-color:#ff4b00;color:#fff;margin:-1px;width:42px;height:43px;border:0}
+.m-sdfix .z-crt .txt,.m-sdfix .z-crt .code{display:block}
+.m-sdfix .txt,.m-sdfix .code{position:absolute;right:100%}
+.m-sdfix .txt{top:0;width:100px;height:100%;line-height:40px;background-color:#666;text-align:center;font-size:12px;color:#fff}
+.m-sdfix .code{bottom:0;width:140px;height:140px;overflow:hidden;border:1px solid #dcdcdc}
+.m-sdfix .code img{display:block;width:140px}
+.m-sdfix .resch i{background-position:-96px -736px}
+.m-sdfix .resch:hover i{background-position:-64px -736px}
+.m-sdfix .qrcode i{background-position:-158px -736px}
+.m-sdfix .qrcode:hover i{background-position:-126px -736px}
+.m-sdfix .totop i{background-position:-33px -736px}
+.m-sdfix .totop:hover i{background-position:0 -736px}
+.m-sdfix .weixin i{background-position:-33px -771px;}
+.m-sdfix .weixin:hover i{background-position:0 -771px}
+.m-sdfix .itm{text-align:center;line-height:40px;color:#ff4b00}
+.m-sdfix .z-crt{color:#fff}
+.m-sdfix .code_wx{width:140px;height:167px;border:0;bottom:-2px}
+.m-sdfix .code_wx strong{position:absolute;bottom:3px;right:10px;font-weight:400;color:#333;font-size:16px}
+.m-sdfix .xiaonengservice {line-height: 14px;padding: 5px 0;height: 30px;}
+
+/*2015-10-27 分页 GuoJinjin */
+.city-page-box{text-align: center;}
+.item-list .con .city-page-list{height:34px;margin:30px auto;display:inline-block; *width:660px;}
+.item-list .con .city-page-list ul{display: inline-block;float: left;}
+.item-list .con .city-page-list li{height:34px;line-height:34px;padding:0 14px;background-color:#f5f5f5;border:1px solid #eaeaea;float:left;font-size: 12px;color:#666;margin:0 5px;cursor:pointer;}
+.item-list .con .city-page-list li.city-page-act{border:1px solid #ff6600;color:#ff6600;}
+.item-list .con .city-page-list li.city-page-more{border:0;background:none;}
+.item-list .con .city-page-list li:hover{background-color:#ff3c3c;border:1px solid #ff3c3c; color:#fff}
+.item-list .con .city-page-list li.city-page-more:hover{background:none;border:0;color:#666;}
+.item-list .con .city-page-list li.city-ul { border:none; background:none;}
+.item-list .con .city-page-list li.city-ul:hover { background:none; border:none;}
+.item-list .con .city-page-list .city-pagePrev.gray,.item-list .con .city-page-list .city-pageNext.gray{ background:#eee; color:#fff; cursor:inherit; border:1px solid #eaeaea;}
+.item-list .con .city-page-list .city-pagePrev.gray:hover,.item-list .con .city-page-list .city-pageNext.gray:hover{ background:#eee; color:#fff; border:1px solid #eaeaea;}
+
+/*2017-01-09 轮播 Chenmeifeng */
+.slide-main .sd { position:absolute; z-index:1; background: #1f2120 url(//dui.dmcdn.cn/dm_2015/city/img/main-player-bar-bg.png)  repeat-x scroll; left:0; bottom:0; width:100%;  display: none;  /* opacity:0; filter:alpha(opacity=0); */ }
+.slide-main .sd .box { position:relative; width:1013px; height:50px; margin:0 auto; /* padding-left:187px; */ overflow:hidden; }
+.slide-main .sd .itm a { position:relative; z-index:0; display:block; width:208px; height:52px;  cursor:pointer; zoom:1; }
+.slide-main .sd .itm .num { float:left; line-height:52px; overflow:hidden; color:#fff; margin:0 0 0 20px; font-size:14px; font-family:impact;}
+.slide-main .sd .itm .txt { position:relative; z-index:1; color:#fff; display:block; line-height:52px; padding:0 16px 0 0; overflow:hidden; }
+.slide-main .mn .itm .lnk { width: 788px; margin-left: -394px; position: absolute; left: 50%!important;}
+.slide-main .mn { height: 371px; }

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+
+	<body>
+
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script>
+			$(function() {
+				function initSelect() {
+					for(var i = 0; i < apidata.length; i++) {
+						var api = apidata[i];
+						var $option = $("<option value=" + api.id + " >" + api.desc + "</option>");
+						$("#apidesc").append($option);
+					}
+				}
+				initSelect();
+				//下拉框发生改变的时候，填充文本框里的值。
+				$("#apidesc").change(function() {
+					//js转jquery 对象
+					var sid = $(this).val();
+					$(apidata).each(function() {
+						if(sid == this.id) {
+							//填充url文本框
+							$("#apiurl").val(this.url);
+							//填充请求类型文本框
+							$("#apitype").val(this.type);
+							var params = this.params;
+
+							var str = "";
+							for(var i = 0; i < params.length; i++) {
+								var param = params[i];
+								str += param.desc + param.name + ":" + param.value + "<br />";
+							}
+							//填充请求参数
+							$("#divparams").html(str);
+						}
+
+					});
+				});
+
+				$("#btntest").click(function() {
+					var apiid = $("#apidesc").val();
+					for(var i = 0; i < apidata.length; i++) {
+						var data = apidata[i];
+						if(data.id == apiid) {
+							
+							var ajaxdata=initajaxdata(data.params);
+							
+							$.ajax({
+								url: data.url,
+								type: data.type,
+								data:ajaxdata,
+								success:function(res){
+									
+								}
+							});
+						}
+					}
+
+				});
+				
+				function  initajaxdata(ajaxdata){
+					var datastr="";
+					for(var i=0;i<ajaxdata.length;i++){
+						datastr+=ajaxdata[i].name+"="+ajaxdata[i].value;
+						if(i<ajaxdata.length-1){
+							datastr+=",";
+						}
+					}
+					return datastr;
+				}
+			});
+		</script>
+		<table border="1">
+			<tr>
+				<td>接口名称</td>
+				<td>
+					<select id="apidesc">
+						<option>请选择</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>请求的url</td>
+				<td>
+					<input id="apiurl" />
+				</td>
+			</tr>
+			<tr>
+				<td>请求方式</td>
+				<td>
+					<input id="apitype" />
+				</td>
+			</tr>
+			<tr>
+				<td>请求参数</td>
+				<td>
+					<div id="divparams" style="width: 300px ;height: 100px;">
+
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>响应结果</td>
+				<td>
+					<div id="divparams" style="width: 300px ;height: 100px;">
+
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>测试</td>
+				<td>
+					<input id="btntest" type="button" value="提交" />
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>
